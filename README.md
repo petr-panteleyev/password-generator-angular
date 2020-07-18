@@ -13,7 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 ```
-ng build --prod --output-hashing none --base-href password-generator-web
+ng build --prod --output-hashing none --base-href /apps/password-generator/
 ```
 
 ## Running unit tests
