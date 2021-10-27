@@ -1,29 +1,26 @@
+.rootDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: fit-content;
+  vertical-align: center;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: cornsilk;
+}
+
+button {
+  margin-right: 1em;
+}
+
+button#copyButton {
+  margin-left: 1em;
+}
+
 .mat-checkbox ~ .mat-checkbox {
     margin-left: 16px;
 }
 
-#lengthSelect {
-    margin-top: 16px;
-}
-
 .passwordField {
     width: 32em;
-}
-
-.rootDiv {
-    width: fit-content;
-    vertical-align: center;
-    margin: 0 auto;
-}
-
-.passwordCard {
-    background-color: cornsilk;
-}
-
-.optionsCard {
-    background-color: cornsilk;
-}
-
-.buttonCard {
-    background-color: cornsilk;
 }
